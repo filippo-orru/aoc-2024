@@ -24,6 +24,6 @@ fun check(actual: Any, expected: Any) {
   if (actual == expected) {
     println("Check '${expected}' OK")
   } else {
-    println("Check '${expected}' FAIL")
+    println("Check '${expected}' FAIL (actual: ${actual})")
   }
 }
